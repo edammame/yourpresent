@@ -1,16 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+
 body {
   background-image: url("asset/tulips.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  font-family: reenie beanie;
+  font-family: 'Reenie Beanie', cursive;
   font-size: 18px;
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
 }
 
 .flip-card {
