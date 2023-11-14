@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 420px) {
+@media only screen and (max-device-width: 420px) and (max-device-height:740px) {
     body {
         background-image: url("asset/tulips.jpg");
         background-repeat: no-repeat;
@@ -6,6 +6,8 @@
         background-position: top;
         font-family: 'Reenie Beanie', cursive;
         font-size: 18px;
+        height: 1200px;
+        width: max-content;
       }
 
       .flip-card {
